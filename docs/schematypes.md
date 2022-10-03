@@ -259,8 +259,8 @@ const schema2 = new Schema({
 * `trim`: boolean, whether to always call [`.trim()`](https://masteringjs.io/tutorials/fundamentals/trim-string) on the value
 * `match`: RegExp, creates a [validator](./validation.html) that checks if the value matches the given regular expression
 * `enum`: Array, creates a [validator](./validation.html) that checks if the value is in the given array.
-* `minLength`: Number, creates a [validator](./validation.html) that checks if the value length is not less than the given number
-* `maxLength`: Number, creates a [validator](./validation.html) that checks if the value length is not greater than the given number
+* `minlength`: Number, creates a [validator](./validation.html) that checks if the value length is not less than the given number
+* `maxlength`: Number, creates a [validator](./validation.html) that checks if the value length is not greater than the given number
 * `populate`: Object, sets default [populate options](/docs/populate.html#query-conditions)
 
 <h5 id="number-validators">Number</h5>
